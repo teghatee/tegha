@@ -1,0 +1,340 @@
+.products img {
+    width: 250px;
+    height: 250px;
+    border: 8px solid blue;
+    border-radius: 30px;
+}
+
+.products img:hover {
+    border: 8px solid red;
+}
+
+.products {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .herooo {
+    border: 1px solid red;
+    height: 52vh;
+    width: 100vw;
+    background: url(Teghaproductsimages/Organic\ Soap\ 1.jpg);
+    border: none;
+   } 
+   
+.herooo h1 {
+    color: white;
+    margin-left: 380px;
+    margin-top: 18px;
+    font-size: 40px;
+
+}
+
+.herooo h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;  
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97vw;
+    height: 50px;
+    border: 2px solid blue;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: green;
+    
+ }
+
+.menu {
+    width: 800px;
+    border: 2px solid blue;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    height: inherit;
+    align-items: center;
+    
+}
+
+.menu input {
+    padding: 10px;
+    border: 1px solid blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 16px;
+}
+
+.menu button {
+    padding: 11.5px;
+    border: none;
+    background: none;
+    font-size: 16px; 
+}
+
+.menu .bbb:hover {
+    color: blue;
+}
+.form button {
+    margin-left: -5px; 
+    border: 1px solid blue;
+    background: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+
+.form button:hover {
+    background: green;
+}
+
+.hero {
+    margin-top: 50px;
+    border: 1px solid red;
+    height: 100vh;
+    width: 97vw;
+    background: url(Teghaproductsimages/Organic\ Soap\ 1.jpg);
+    border: none;
+   } 
+
+.hero h1 {
+    color: white;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.hero h1 {
+    color: white;
+}
+
+.hero h2 { color: white;
+    font-size: 20px;
+    margin-top: 20px;  
+}
+
+/* .ProductsDisplay h1 {
+    font-size: 16px;
+    
+}
+
+.ProductsDisplay img:hover {
+    border: 8px solid green
+}
+
+.ProductsDisplay {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ProductsDisplay img {
+    width: 300px;
+    height: 300px;
+    border: 8px solid blue;
+    border-radius: 30px;
+} */
+
+
+
+.b {
+    /* border: 5px solid black; */
+    /* border-radius: 25px; */
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: blue;
+    color: white;
+}
+
+.prod {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+
+
+.prod .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.prod .head {
+    margin: auto;
+    color: green;
+    margin-top: 50px;
+}
+
+.prod .one {
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prod .one .pic {
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.prod .one .pic img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.prod .one .word {
+    border: 1px solid black;
+    width: 90%;
+    height: 35%;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;   
+}
+
+.prod .one .word h4 {
+    text-align: center;
+}
+
+.prod .one .word span {
+    margin-left: 100px;
+}
+
+.prod .one .word button {
+    width: 200px;
+    padding: 10px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.prod .arrow {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.promobanner {
+    border: 2px solid blue;
+    background: rgba(10, 0, 207, 0.975);
+    color: white;
+        text-align: center;
+    border: none;
+    /* padding: 5px; */
+    height: 15vh;
+}
+
+.promobanner h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.newsletter {
+    border: 2px solid blue;
+    /* padding: 15px; */
+    text-align: center;
+}
+
+.newsletter input {
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    /* padding-bottom: 10px; */
+}
+
+.newsletter button {
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    /* padding-top: 10px; */
+}
+
+.newsletter p {
+    font-size: 20px;
+}
+
+.newsletter .b {
+    border: 2px solid black
+}
+
+.footer {
+    /* border: 1px solid black; */
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p {
+    margin-left: 10px
+}
+
+
+.socialmediahandle {
+    color: blue;
+    /* margin-bottom: 300px; */
+}
+
+.sponsor {
+    margin-right: 20px;
+}
+
+.socialmediahandle{
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.socialmediahandle button {
+    padding: 3px;
+    margin-bottom: 5px;
+
+}
+
+.copyright {
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+.copyright p {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width:768px) {
+    /* .navbar .select {
+        display: none;
+    } */
+
+    .navbar {
+        /* display: none; */
+    }
+
+    .navbar .menu {
+        display: none;
+    }
+} 
